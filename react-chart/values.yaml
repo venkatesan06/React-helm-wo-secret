@@ -1,0 +1,11 @@
+replicaCount: 1
+
+image:
+  repository: venkatesan.jfrog.io/nginx-docker/react
+  tag: 2.0
+service:
+  type: ClusterIP
+  port: 80
+
+run: myapp
+ 
