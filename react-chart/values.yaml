@@ -1,11 +1,11 @@
 replicaCount: 1
 
 image:
-  repository: venkatesan.jfrog.io/nginx-docker/react
-  tag: 2.0
+  repository: venkatesan06/my-nginx
+  tag: "2.0.0"
 service:
-  type: ClusterIP
+  type: LoadBalancer
   port: 80
 
-run: myapp
+run: react
  
